@@ -1,0 +1,35 @@
+/* @import "sections/_videos.css" */
+
+#videos {
+    .currentVideo {
+        text-align: center;
+        border-top: 2px solid black;
+        padding-top: 1rem;
+        padding-botom: 1rem;
+        border-bottom: 2px solid black;
+        margin-bottom: 1rem;
+        
+        p.videoBox {
+            margin: 0 auto;
+            padding:50px;
+            border: 1px solid black;
+            max-width: 350px;
+        }
+        
+        .videoLinks {
+            margin: 1rem 0 4rem;
+            
+            
+            .linkPrev {
+                float: left;
+                font-size: 160%;
+            }
+
+            .linkNext {
+                float: right;
+                font-size: 160%;
+            }
+        }
+    }
+}
+
